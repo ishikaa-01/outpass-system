@@ -1,0 +1,347 @@
+.custom-navbar {
+    background-color: #0A6EBD;
+    padding: 10px;
+    display: flex;
+    height: 80px;
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    float: right;
+  }
+  
+  .custom-navbar .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .custom-navbar .nav-link {
+    color: white;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    margin-right: auto;
+    margin-left:10px;
+    transition: color 0.3s ease;
+    float: left;
+  }
+  
+  
+  .custom-navbar .nav-link:last-child {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  
+  .custom-navbar .me-auto{
+    margin-left: 600px;
+  }
+  
+  .custom-navbar .active-link {
+    color: black; 
+  }
+
+  
+
+
+
+body{
+   margin: 0px;
+   text-size-adjust: auto;
+   font-family: 'Poppins', sans-serif;
+   background-image:url(https://i.pinimg.com/564x/0e/2d/b6/0e2db63cd1f795ff7b4c19b79432b502.jpg);
+   background-repeat: repeat-y;
+   background-size: 100%;
+   height: 100vh;
+   min-height:100vh;
+   }
+
+  .bodyy{
+    align-items:center;
+  justify-content: center;
+  display: flex;
+  }
+  
+  main.table{
+    width: 82vw;
+    height: 90vh;
+    background-color: #fff5;
+    backdrop-filter:blur(0px) ;
+    box-shadow: 0 .4rem .8rem #0005;
+     border-radius: .8rem;
+     overflow: hidden;
+  }
+
+  .table_header{
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 4rem;
+    
+  }
+  .table_body{
+    width: 91%;
+    max-height: calc(89% - 1.6rem);
+    background-color:#fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow:auto;
+  }
+
+  .table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+
+  }
+  .table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+  }
+  .table_body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+  }
+
+  table{
+    width: 100%;
+
+  }
+
+  .InCard{
+    border: 1px solid rgba(155,200,218,0.25);
+    border-radius: 10px;
+    background: aliceblue;
+    width:210%;
+    padding: 5px;
+    text-align: center;
+}
+.InImg{
+    border-radius: 100%;
+    width:55px;
+    height:55px;
+    float: left;
+    padding: 5px;
+    margin-right: .5rem;
+    vertical-align: middle;
+    
+}
+  
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box ;
+  font-family: sans-serif;
+}
+
+table,td,th{
+  padding: 1rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+  
+thead th{
+  position: sticky;
+  top:0;
+  left:0;
+  
+  background-color: #d5d1defe;
+
+
+}
+tbody tr:nth-child(even){
+  background-color: rgb(224, 229, 238);
+}
+
+tbody tr:hover{
+  background-color: rgba(170, 239, 214, 0.4);
+}
+
+ @media(max-width){
+   td:not(:first-of-type){
+    min-width: 12.1rem;
+
+   }
+ }
+
+
+ footer{
+  background-color: #074698;
+  color: white;
+  padding: 40px;
+  font-weight: lighter;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-size: 100%;
+background-image: url(https://i.pinimg.com/564x/0e/2d/b6/0e2db63cd1f795ff7b4c19b79432b502.jpg);
+
+
+}
+
+.foot{
+    
+  background-image: url(https://i.pinimg.com/564x/0e/2d/b6/0e2db63cd1f795ff7b4c19b79432b502.jpg);
+
+}
+.foot-url{
+    
+  background-image: url(https://i.pinimg.com/564x/0e/2d/b6/0e2db63cd1f795ff7b4c19b79432b502.jpg);
+
+}
+.hometext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #397fd3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+
+  transition: background-image 1s ease;
+  font-family: Arial, sans-serif;
+}
+
+.ht_content {
+  padding: 20px;
+  background-color: #e3e3d8;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 33%;
+}
+
+.morning {
+  background-image: url(https://i.pinimg.com/236x/73/ee/97/73ee97f2956e6756ada3defc5bc4ea42.jpg);
+  position: absolute;
+  top:10px;
+  width: 100%;
+}
+
+.afternoon {
+  background-image: url(https://i.pinimg.com/236x/c6/3b/a5/c63ba5126c1cb954c393e656df46ecf3.jpg);
+  position: absolute;
+  top:10px;
+  width: 100%;
+}
+
+.evening {
+  background-image: url(https://i.pinimg.com/564x/a5/eb/39/a5eb39288b16f467b571e2b95afa1216.jpg);
+  position: absolute;
+  top:10px;
+  width: 100%;
+}
+
+.flex-container{
+  padding-top: 300px;
+  padding-bottom: -800px;
+  color:#074698;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  
+  
+}
+
+.btn-outline-info {
+  --bs-btn-color: rgb(16 55 114 / 25%);
+  --bs-btn-border-color: #3d11b0;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #777eea;
+  --bs-btn-hover-border-color: #532327;
+  --bs-btn-focus-shadow-rgb: 13,202,240;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #a91b4e;
+  --bs-btn-active-border-color: #1c2324;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #c37980;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #1a23bc;
+  --bs-gradient: none;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  color:#074698;
+  z-index: 1;
+  box-shadow:1px 5px 10px 7px rgb(116, 142, 165);
+  top:-5vw;
+  /* padding: 150px; */
+  flex-direction: column;
+  width: 47vw;
+  height: 30vw;
+  padding-top: 5vw;
+  background: rgba(155,200,218,0.5);
+-webkit-backdrop-filter: blur(11px);
+backdrop-filter: blur(11px);
+border: 1px solid rgba(1, 16, 21, 0.25);
+} 
+a{
+  text-decoration: none;
+  color: aliceblue;
+  
+}
+a:hover{
+  color:#050332;
+}
+p{
+  line-height: 1vw;
+}
+.pad{
+  padding: 1rem;
+  display: inline;
+}
+
+
+
+/* Styles for the "Approve" button */
+.approve-button {
+  /* Make the button round by setting equal width and height */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; /* Set border-radius to 50% to make it round */
+
+  /* Apply the green color to the button background and text color */
+  background-color: rgb(74, 205, 74);
+  color: rgb(11, 10, 10); /* White text color for better contrast */
+
+  /* Center the content inside the button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Add additional styles for button appearance */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.2s ease-in-out; /* Add smooth transition effect */
+}
+
+/* Hover style for the "Approve" button */
+.approve-button:hover {
+  background-color: rgb(3, 81, 3); /* Change the background color on hover */
+}
+
+
+.round-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.round-button:hover {
+  background-color: darkred;
+}
