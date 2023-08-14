@@ -75,6 +75,9 @@ Detailed student information accompanies each entry in the table, offering conte
 
 The help section displays instructions for the user.
 
+![image](https://github.com/ishikaa-01/outpass-system/assets/122954616/45c051c8-80ce-4ac2-9436-e82c5d5379fb)
+
+
 Clicking on logout leads to the logout page. A dedicated "/Logout" route is made for it.
 
 
